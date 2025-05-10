@@ -1,20 +1,14 @@
-/*************  ✨ Windsurf Command ⭐  *************/
-# MeetX Backend Task
+# Activity Booking
 
-This is the backend for the MeetX task. It is a RESTful API built with Node.js and Express.js. It uses MongoDB as the database and JWT for authentication.
+This is the backend for the Activity Booking App. It is a RESTful API built with Node.js and Express.js. It uses MongoDB as the database and JWT for authentication.
 
 ## Setup
-
-### Prerequisites
-
-* Node.js installed on your computer
-* MongoDB installed on your computer
 
 ### Installation
 
 1. Clone the repository
 2. Install the dependencies with `npm install`
-3. Create a .env file in the root directory with the following variables:
+3. Create a .env (sample file provided) file in the root directory with the following variables:
     * PORT: The port number to run the server on
     * DB_URI: The URI for the MongoDB database
     * JWT_SECRET: The secret key for the JWT
@@ -33,9 +27,8 @@ The API has the following endpoints:
 
 ### Testing
 
-The API has been tested with Postman. You can test it by sending a POST request to the register endpoint with a user object in the body. Then, you can test the login endpoint by sending a POST request with the user's email and password. After that, you can test the other endpoints.
+API Documentation - https://documenter.getpostman.com/view/26915982/2sB2j98p7d#511ec459-7dbc-4050-9e9c-60e01ce18024
 
 ### Deployment
 
-The API is ready to be deployed to a server. You can use a service like Heroku or AWS to deploy it. You will need to create a new instance of the MongoDB database and update the DB_URI variable in the .env file. Then, you can deploy the API to the server.
-/*******  d48a3b7d-52b0-433d-9d08-ade25e72a879  *******/
+The backend is deployed on Render - https://activity-booking-backend-kn5i.onrender.com
