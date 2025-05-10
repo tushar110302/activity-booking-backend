@@ -21,6 +21,10 @@ app.use(cookieParser());
 app.use("/api/v1/users", authRouter);
 app.use("/api/v1/activities", activityRouter);
 
+app.get("/", (req, res) => {
+    res.send("Hello World");
+})
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 })
